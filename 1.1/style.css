@@ -1,5 +1,7 @@
 .body{
+   margin: 0 auto;
     background-color: fff;
+   
    
 }
 *{ box-sizing: border-box;
@@ -9,7 +11,7 @@
 .wrapper{
     max-width:1200px;
     background-color: #fff;
-      
+    margin: 0 auto;  
 }
 .element-1{
     background-color: #000;
@@ -124,7 +126,7 @@
     min-height: 18px;
   
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   
     .element-2{
         
@@ -150,7 +152,11 @@
       }
       
 }
-@media only screen and (max-device-width: 480px) {
+
+
+
+
+@media  (max-width: 480px) {
     .box-1 {
         flex-wrap: wrap;
         
